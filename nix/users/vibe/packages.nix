@@ -1,6 +1,7 @@
 { pkgs }:
 
 with pkgs; [
+  cloudflared
   awscli2
   youtube-dl
   vscode
