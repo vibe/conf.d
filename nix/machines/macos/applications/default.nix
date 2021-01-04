@@ -8,6 +8,7 @@ self: super: {
   Docker = super.callPackage ./docker {};
   Chrome = super.callPackage ./chrome {};
   Framer = super.callPackage ./framer {};
+  Pulumi = super.callPackage ./pulumi {};
 
   # TODO: Switch back to src build when SkyLight issue is fixed
   yabai = super.yabai.overrideAttrs (o: rec {

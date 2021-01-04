@@ -17,4 +17,5 @@ with pkgs; [
   vim
   tmux
   niv
+  Pulumi
 ]
