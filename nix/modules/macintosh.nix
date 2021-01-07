@@ -33,6 +33,7 @@ in with pkgs.stdenv; with lib; {
     pkgs.Docker
     pkgs.Chrome
     pkgs.Framer
+    pkgs.Discord
     # pkgs.Cheatsheet - find somethign like this
   ];
   programs.bash.enable = false;
