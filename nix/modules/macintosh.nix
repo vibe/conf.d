@@ -34,6 +34,7 @@ in with pkgs.stdenv; with lib; {
     pkgs.Chrome
     pkgs.Framer
     pkgs.Discord
+    pkgs.NoSQLWorkbench
     # pkgs.Cheatsheet - find somethign like this
   ];
   programs.bash.enable = false;
