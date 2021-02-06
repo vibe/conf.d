@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     name = "Sketch-${version}.zip";
     url = "https://beta-download.sketch.com/sketch.zip";
-    sha256 = "1m81lz18mwjhkycq31wy8fgq39xa36biijz3hw557j0hm03hqqfd";
+    sha256 = "5AKce5V2sb4uf5a9SaMkPLDGQGMsfS4ofDzsfj7Tlks=";
   };
 
   meta = with stdenv.lib; {

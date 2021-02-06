@@ -14,8 +14,8 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     name = "nosql-workbench-${version}.dmg";
-    url = "https://s3.amazonaws.com/nosql-workbench/NoSQL%20Workbench-mac-2.1.0.dmg";
-    sha256 = "0rfz739fis9mk103birzxawn68h9xg7y2x7lq0lkjnl29ycipan3";
+    url = "https://s3.amazonaws.com/nosql-workbench/NoSQL%20Workbench-mac-2.2.0.dmg";
+    sha256 = "c5HWPmSiBwJOv6TOABBCmExu22oL1wx7OzcNxV5uKiA=";
   };
 
   meta = with stdenv.lib; {

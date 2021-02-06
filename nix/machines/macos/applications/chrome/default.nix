@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     name = "Chrome-${version}.dmg";
     url = "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg";
-    sha256 = "1qzd9ih4mmysz1v8pqdbraf1rxqaidsdzwadhcd6hsn4h1m3q7i4";
+    sha256 = "sha256-JdrKmO2TmPxNmX6XPyqD9Pxgpj3bcZIm+fH82udFHPg=";
   };
 
   meta = with stdenv.lib; {

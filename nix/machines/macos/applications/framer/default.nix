@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     name = "Framer-${version}.zip";
     url = "https://updates.framer.com/download-latest/com.framer.desktop";
-    sha256 = "1l48chf8mxi9ihvf0b24pqw1c1x4r6jnmlrckp4m3mihz9x10mb3";
+    sha256 = "Spi0owvmUrVUl4E6pJ5AWTTsobMuBZlXmOQOKOwKbD8=";
   };
 
   meta = with stdenv.lib; {

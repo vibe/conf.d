@@ -15,13 +15,13 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     name = "Firefox-${version}.dmg";
     url = "https://download.mozilla.org/?product=firefox-nightly-latest-ssl&os=osx&lang=en-US";
-    sha256 = "06v3fkmj8azwd6iar3xw1090dyiaci1y22ng6nwm1g31wy6rwsyr";
+    sha256 = "sha256-UEm5IWEggaQ+vJaHPd04DgTJ+ayvwSKff7jj1MoTZmY=";
   };
 
   meta = with stdenv.lib; {
     description = "The Firefox web browser";
     homepage = "https://www.mozilla.org/en-GB/firefox";
-    maintainers = [ maintainers.cmacrae ];
+    maintainers = [ maintainers.vibe ];
     platforms = platforms.darwin;
   };
 }

@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     name = "docker-${version}.dmg";
     url = "https://desktop.docker.com/mac/stable/Docker.dmg";
-    sha256 = "1b8vpk2m65cdxprwgld25m5g9x4h9mcplg0izgqixg7wsk37qg6n";
+    sha256 = "nmhoTX0Z3pADRjDsISel1JE43DFIVwWfp1qZaHvitrg=";
   };
 
   meta = with stdenv.lib; {
