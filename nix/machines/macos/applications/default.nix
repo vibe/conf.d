@@ -12,6 +12,7 @@ in {
   environment = {
     systemPackages = with pkgs; [
       zsh
+      skhd
       alacritty
       docker
       vscode
