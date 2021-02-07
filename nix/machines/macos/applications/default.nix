@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
  let
-  user = "vibe"; ##wtf is builtins.getEnv("LOGNAME") not working
+  user = "vibe"; ##wtf why builtins.getEnv("LOGNAME") not working
   userPackages = config.home-manager.users.${user}.home.packages;
   docker-gui = pkgs.callPackage ./docker {};
   chrome = pkgs.callPackage ./chrome {};
@@ -12,6 +12,7 @@ in {
   environment = {
     systemPackages = with pkgs; [
       zsh
+      tmux
       skhd
       alacritty
       docker
